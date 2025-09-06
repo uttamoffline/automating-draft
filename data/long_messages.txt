@@ -1,0 +1,2 @@
+This is a very long test message with repeated characters 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+and eventually it ends with an email autolead+long1@example.com

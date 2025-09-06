@@ -1,0 +1,6 @@
+pytest
+selenium>=4.10.0
+webdriver-manager
+requests
+python-dotenv
+pytest-html

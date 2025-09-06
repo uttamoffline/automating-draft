@@ -1,0 +1,3 @@
+just some text without email
+another bad case without proper email
+hello chatbot, again no email here
