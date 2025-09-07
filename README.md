@@ -24,6 +24,7 @@ The goal: validate critical end-to-end flows with UI + API checks.
 - **Data-driven tests:** Messages are pulled from `data/` text files.  
 - **API client:** Optional backend cross-check for created leads.  
 - **Pytest runner:** Orchestrates UI + API, captures screenshots on failure.
+- **CI runner:** Orchestrates Suite on every Push.
 
 Command to run:
 
@@ -52,9 +53,9 @@ pytest -q tests/test_end_to_end.py --html=report.html --self-contained-html
 ## Next Steps
 
 - Stabilize login & slow page loads.  
-- Add Calendar validation in CRM.  
+- Add multiple scenarios for user entrypoint & onboarding 
 - Add smoke vs. regression suites.  
-- Run in CI (GitHub Actions/Jenkins).  
+- Run in CI (Jenkins).  
 
 ---
 
