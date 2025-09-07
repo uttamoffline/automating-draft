@@ -1,9 +1,8 @@
 
 # QA Automation Framework – Chat Agent & CRM
 
-This repo holds an automated QA test framework for **Chat Agent → CRM** at `test.wing.work`.  
-The goal: validate critical end-to-end flows with UI + API checks.
-
+Automated test suite for the Chat Agent + CRM integration.  
+Covers the **lead intake flow** as the core scenario, with **happy path, negative cases, and edge cases** included.
 ---
 
 ## Project Layout
