@@ -57,5 +57,5 @@ try:
 except Exception as e:
     log.error(f"❌ Test failed: {e}")
 
-finally:
-    driver.quit()
+# finally:
+#     driver.quit()

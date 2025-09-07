@@ -2,6 +2,12 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+
+'''
+calendar icon = //a[@href='/myday']//img[@class='nav-icon']
+rel_xpath_ofcalendar_icon = //div[contains(text(),'checking for any text here')] 
+
+'''
 class CRMPage:
     NAV_LINK = (By.CSS_SELECTOR, "a[href*='/crm']")
     SEARCH_INPUT = (By.CSS_SELECTOR, "input[data-testid='crm-search']")
